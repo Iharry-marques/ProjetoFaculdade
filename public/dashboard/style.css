@@ -1,0 +1,377 @@
+:root{
+    --input-linear: linear-gradient(120deg,#aad1fa, rgb(108, 139, 244));
+    --bottom-linaer: linear-gradient(120deg,#aad1fa, grey ,rgb(132, 132, 244));
+    --white: #fff;
+    --black: #303030;
+    --gray: #929292;
+    --light-gray: #cfcfcf;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+header{
+    background-color: white;
+    padding: 20px  0;
+    border-bottom: 2px solid #16507b;
+}
+
+.logo{
+    color :#16507b;
+}
+
+#img-logo{
+    width: 200px;
+    height: 90px;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: #124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 20px 10px 0 0;
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color: white;
+
+}
+/*
+Section main
+*/
+
+section.main{
+    background-image: url(./img/fundo.jfif);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width:100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main__cta h2{
+    color: #16507b;
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px;
+}
+
+.main__cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.diferencial-single{
+    border-radius: 10px;
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+}
+
+.diferencial-single i{
+    color: #124265;
+    font-size: 23px;
+    
+}
+
+.diferencial-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+    
+}
+
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.diferencial-single a{
+    text-decoration: none;
+}
+.diferencial-single a
+
+section.sobre{
+    padding: 80px 0 ;
+
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    margin: 12px 20px;
+    color: #444444;
+}
+
+.conteudo-sobre span{
+    display: inline;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i{
+    color: #007bff;
+
+}
+
+section.conquistas{
+    background-color: #a3d1ff;
+    padding: 20px 0;
+}
+
+.conquista-single{
+    width: 22%;
+    margin: 3%;
+    text-align: center;
+    color: #124265;
+    margin-left: 60px;
+}
+
+.conquista-single h2{
+    font-size: 30px;
+}
+.conquista-single img{
+    max-width: 100%;
+}
+
+.conquista-single img{
+    filter: grayscale(100%);
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.conquista-single img:hover{
+    transform: scale(1.1,1.1);
+    filter: grayscale(0);
+}
+
+.menu-items{
+    position: absolute;
+    left: 0;
+    top: 120px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid blue;
+    display: block;
+    opacity: 0;
+    transition: 1s;
+}
+
+.menu-items.show{
+    opacity: 1;
+}
+
+.menu-items.hidde{
+    opacity: 0;
+}
+
+.menu-items a{
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.sobre-empreendedor-vid{
+    width: 50%;
+
+}
+
+.sobre-empreendedor-content{
+    width: 50%;
+    padding: 0, 50px;
+}
+
+section.sobre-empreendedor{
+    padding: 40px 0;
+}
+
+.sobre-empreendedor-content h2{
+    color: #124265;
+    margin-bottom: 23px;
+    margin: 50px;
+}
+
+.sobre-empreendedor-content p{
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 14px;
+    margin: 50px;
+
+}
+
+.sobre-empreendedor-vid video{max-width: 100%;}
+
+section.depoimentos{
+    padding: 40px 0;
+}
+section.depoimentos .depoimentos-chamada{
+    text-align: center;
+}
+
+.depoimentos-chamada h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.depoimentos-chamada p{
+    color: #ccc;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.carrousel{
+    display: flex;
+}
+
+.carrousel-single{
+    width: 31%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.carrousel-single-box{
+    padding: 20px;
+    background-color: #f3f9fd;
+    border-radius: 10px;
+
+}
+
+.carrousel-single-box p{
+    font-style: italic;
+    color: #4b4b4b;
+    font-size: 14px;
+}
+
+.carrousel-single-box i{
+    color: #c9e3f5;
+    font-size: 19px;
+    padding: 0 8px;
+}
+
+.carrousel-single img{
+    width: 70px;
+    height: 70px;
+    display: inline;
+    margin: 10px 0;
+    border-radius: 50%px;
+}
+
+.carrousel-single span{
+    color:#ccc;
+}
+.contato-single{
+    text-align: center;
+}
+.contato-single h1{
+    background-color: #a3d1ff;
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        width: 20%;
+    }
+    .menu-mobile{
+        width: 80%;
+        text-align: right;
+        display: block;
+    }
+    .menu-mobile i{
+        cursor: pointer;
+        font-size: 23px;
+        margin-top: 8px;
+    }
+    .conteudo-sobre p {width: 100%; margin: 20px 20px;}
+}
