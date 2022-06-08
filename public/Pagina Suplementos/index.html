@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <meta meta http-equiv=”Content-Type” content=”text/html; charset=iso-8859-1?>
+    <meta meta http-equiv=ï¿½Content-Typeï¿½ content=ï¿½text/html; charset=iso-8859-1?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://kit.fontawesome.com/3bb13eb98b.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +77,7 @@
             background-color: #124265;
             color: white;
         }
-        /*cabeçalho*/
+        /*cabeÃ§alho*/
         
         body {
             background-image: url(./images/fundo.jfif);
@@ -130,6 +130,8 @@
             display: flex;
             justify-content: space-around;
             padding-bottom: 30px;
+            background-color: #a3d1ff;
+            padding: 20px;
         }
         
         .list-atividade .item-atividade {
@@ -159,7 +161,8 @@
         }
         
         .item-atividade img {
-            width: 90%;
+            width: 210px;
+            height: 210px;
             margin: auto;
         }
         
@@ -204,7 +207,9 @@
             background-color: #fff;
             padding: 30px 0;
             margin-top: 50px;
-            height: 70%
+            height: 70%;
+            background-color: #a3d1ff;
+            padding: 0px;
         }
         
         .btn {
@@ -235,6 +240,7 @@
         .chamada-sobre h2 {
             color: #124265;
             text-transform: uppercase;
+            margin-right: 25px;
         }
         
         .chamada-sobre p {
@@ -246,12 +252,13 @@
         .conteudo-sobre {
             display: flex;
             flex-wrap: wrap;
+            margin-left: 99px;
         }
         
         .conteudo-sobre p {
             width: 48%;
             margin-right: 2%;
-            margin: 12px 20px;
+            margin: 17px 180px;
             color: #444444;
         }
         
@@ -259,6 +266,7 @@
             display: inline;
             width: 100%;
             margin-top: 90px;
+            margin-right: 63px;
         }
         
         .conteudo-sobre i {
@@ -280,7 +288,7 @@
         .texto-apresentacao h1 {
             color: #124265;
             font-size: 35px;
-            margin-bottom: 90px;
+            margin-bottom: 20px;
         }
         
         .content-mid {
@@ -346,59 +354,40 @@
     <header>
         <div class="center">
             <div class="logo">
-                <img id="img-logo" src="./images/Logo-SemFundo.png" alt="">
+                <img id="img-logo" src="../dashboard/img/Logo-SemFundo.png" alt="">
             </div>
             <!--logo-->
             <div class="menu">
-                <a href="#">
+                <a href="../dashboard/cards.html">
                     Home
                 </a>
-                <a href="#">
-                    Sobre
-                </a>
-                <a href="#">
-                    ServiÃ§os
-                </a>
-                <a href="#">
-                    Contato
-                </a>
-                <a class="btn-menu" href="#">
-                    Dicas
+                <a class="btn-menu" href="../login.html">
+                    Acessar
                 </a>
             </div>
             <!--center-->
-            <div class="menu-mobile">
-                <i class="fas fa-bars menu-mobile-icon"></i>
-                <div class="menu-items">
-                    <a href="">Home</a>
-                    <a href="">Sobre</a>
-                    <a href="">ServiÃ§os</a>
-                    <a href="">Contato</a>
-                </div>
-            </div>
-        </div>
     </header>
 
     <section>
         <div>
             <div class="flex-container" id="atividade">
-                <h2>Suplementos são Importantes?</h2>
+                <h2>Suplementos Mais Famosos</h2>
             </div>
 
             <div class="list-atividade">
                 <div class="item-atividade">
-                    <div><img src="./images/suplemento-alimentar-600x428-c8b24850.jpg" alt="Aquecimento"></div>
-                    <p>Aquecimento</p>
+                    <img src="./images/whey.webp">
+                    <p>Whey</p>
                 </div>
 
                 <div class="item-atividade">
-                    <div><img src="./images/suplemento-alimentar-600x428-c8b24850.jpg" alt="Exercicio"></div>
-                    <p>Exercício</p>
+                    <img src="./images/creatina.webp">
+                    <p>Creatina</p>
                 </div>
 
                 <div class="item-atividade">
-                    <div><img src="./images/suplemento-alimentar-600x428-c8b24850.jpg" alt="Perda de Peso"></div>
-                    <p>Perda de Peso</p>
+                    <img src="./images/pretreino.webp" >
+                    <p>PrÃ© Treino</p>
                 </div>
 
             </div>
@@ -414,10 +403,14 @@
             <br>
             <!--chamada-sobre-->
             <div class="conteudo-sobre">
-                <p>“Os suplementos funcionam como um complemento da alimentação. Na maioria dos casos, são indicados para pessoas que apresentam uma carência muito grande de determinado nutriente”<br />
-                    <div><i class="fas fa-check-double"></i><span> Acreditamos cegamente que musculaÃ§Ã£o Ã© uma Ã¡rea onde a ciÃªncia Ã© importante, mas junto da prÃ¡ica</span></div>
-                    <div><i class="fas fa-check-double"></i><span> Nossos redatores contam com o conhecimento teÃ³rico como vasta experiÃªncia prÃ¡tica</span></div>
-                    <div><i class="fas fa-check-double"></i><span> Nenhum texto vai ao ar sem que o mesmo seja revisado cientificamente para que cada afirmaÃ§Ã£o possa ser embasada</span></div>
+                <p> Os suplementos funcionam como um complemento da alimentaÃ§Ã£o. Na maioria dos casos, sÃ£o indicados para pessoas que apresentam uma carÃªncia muito grande de determinado nutrientes<br/>
+                    <br>
+                
+                    <div><i class="fas fa-check-double"></i><span> Fortalecimento da imunidade do organismo</span></div>
+                    <div><i class="fas fa-check-double"></i><span> Suporte a praticantes de atividades fÃ­sicas</span></div>
+                    <div><i class="fas fa-check-double"></i><span> SuplementaÃ§Ã£o em determinadas doenÃ§as</span></div>
+
+                    <br>
                 </p>
                 <p>Tudo isso para que vocÃª, leitor, possa aprender algo novo, com confianÃ§a, e com cada texto possa melhorar sua vida e treino em algum aspecto</p>
             </div>
@@ -431,12 +424,11 @@
         <div class="container-externo-mid">
             <div class="flex-container apresentacao">
                 <div class="texto-apresentacao ">
-                    <i class="fa-solid fa-bottle-water "></i>
-                    <h1>Suplementos</h1>
+                    <h1>Suplementos : </h1>
                 </div>
                 <div>
                     <div>
-                        <img src="./images/guia_do_whey_protein_madrugao_suplementos.jpg " alt="banner de apresentaÃ§Ã£o ">
+                        <img src="./images/guia_do_whey_protein_madrugao_suplementos-removebg-preview.png" alt="banner de apresentaÃ§Ã£o ">
                     </div>
                 </div>
             </div>
@@ -453,22 +445,22 @@
             <!--chamada-sobre-->
             <div class="conteudo-sobre ">
                 <div>
-                    <h2>Tipos de Suplementos</h2>
-                    <p>Os suplementos não são todos iguais e nem são utilizados apenas por quem vai à academia. Conheça os diferentes tipos:</p>
+                    <h2>Tipos de Suplementos : </h2>
+                    <p>Os suplementos nÃ£o sÃ£o todos iguais e nem sÃ£o utilizados apenas por quem vai a academia. ConheÃ§a os diferentes tipos:</p>
                     <br>
 
-                    <h3>Suplementos hipercalóricos</h3>
+                    <h3>Suplementos hipercaloricos</h3>
                     <ul>
                         <li>
-                            Esses são cheios de calorias. Assim, sua composição é rica em gorduras, vitaminas, proteínas, carboidratos e minerais. Porém, cuide com os excessos de gordura e calorias, que podem levar ao sobrepeso.
+                            Esses sÃ£o cheios de calorias. Assim, sua composiÃ§Ã£o Ã© rica em gorduras, vitaminas, proteÃ­nas, carboidratos e minerais. PorÃ©m, cuide com os excessos de gordura e calorias, que podem levar ao sobrepeso.
                         </li>
                     </ul>
                     <br>
 
-                    <h3>Suplementos termogênicos</h3>
+                    <h3>Suplementos termogÃªnicos</h3>
                     <ul>
                         <li>
-                            Esses suplementos são ideais para quem pretende emagrecer, já que sua principal função é acelerar o metabolismo. Por isso, sua composição é, geralmente, feita de guaraná, cafeína, citrus, entre outras substâncias.
+                            Esses suplementos sÃ£o ideais para quem pretende emagrecer, jÃ¡ que sua principal funÃ§Ã£o Ã© acelerar o metabolismo. Por isso, sua composiÃ§Ã£o Ã©, geralmente, feita de guarana, cafeÃ©na, citrus, entre outras substancias.
                         </li>
                     </ul>
                     <br>
@@ -476,7 +468,7 @@
                     <h3>Suplementos proteicos</h3>
                     <ul>
                         <li>
-                            Perfeitos para quem é adepto de fazer musculação, os proteicos são feitos de proteínas que ajudam o músculo a se recuperar depois do treino.
+                            Perfeitos para quem Ã© adepto de fazer musculaÃ§Ã£o, os proteicos sÃ£o feitos de proteinas que ajudam o musculo a se recuperar depois do treino.
                         </li>
                     </ul>
                     <br>
@@ -484,7 +476,7 @@
                     <h3>Suplementos antioxidantes</h3>
                     <ul>
                         <li>
-                            Quando fazemos exercícios, nosso corpo produz radicais livres naturalmente. Os antioxidantes ajudam a combater o efeito dos radicais livres nas células.
+                            Quando fazemos exercicios, nosso corpo produz radicais livres naturalmente. Os antioxidantes ajudam a combater o efeito dos radicais livres nas cÃ©lulas.
                         </li>
                     </ul>
                     <br>
@@ -492,23 +484,23 @@
                     <h3>Suplementos hormonais</h3>
                     <ul>
                         <li>
-                            São os tipos de suplementos voltados para estimular a produção de algum hormônio, tais como: tiroxina, estrogênio, entre outros.
+                            SÃ£o os tipos de suplementos voltados para estimular a produÃ§Ã£o de algum hormÃ´nio, tais como: tiroxina, estrogÃªnio, entre outros.
                         </li>
                     </ul>
                     <br>
 
-                    <h3>Suplementos poli vitamínicos e minerais</h3>
+                    <h3>Suplementos poli vitamÃ­nicos e minerais</h3>
                     <ul>
                         <li>
-                            Esses complementam as vitaminas e os minais como, por exemplo, o cálcio, o ferro, o magnésio, entre outros.
+                            Esses complementam as vitaminas e os minais como, por exemplo, o cÃ¡lcio, o ferro, o magnÃ©sio, entre outros.
                         </li>
                     </ul>
                     <br>
 
-                    <h3>Suplementos probióticos</h3>
+                    <h3>Suplementos probiÃ³ticos</h3>
                     <ul>
                         <li>
-                            Micro-organismos vivos que são suplementados para ajudar em diversos problemas relacionados ao intestino.
+                            Micro-organismos vivos que sÃ£o suplementados para ajudar em diversos problemas relacionados ao intestino.
                         </li>
                     </ul>
                     <br>
@@ -521,35 +513,6 @@
     </section>
     <!--sobre-->
 
-    <section>
-        <div class="container-externo-mid">
-            <div class="flex-container apresentacao">
-                <img class="container-img-mid" src="./images/suplemento-alimentar-600x428-c8b24850.jpg" Exercicio ">
-            </div>
-            <div class="flex-container " id="titulo ">
-                <h2>Titulo</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="conquistas ">
-        <div class="center ">
-            <div class="conquista-single " style="width:16%; margin: right 9%; ">
-                <img src="./images/growth.png ">
-            </div>
-            <div class="conquista-single " style="width:16%; margin: right 9%; ">
-                <img src="./images/logo-max-titanium.png ">
-            </div>
-            <div class="conquista-single " style="width:16%; margin: right 9%; ">
-                <img src="./images/logo_integral.png ">
-            </div>
-            <div class="conquista-single " style="width:16%; margin: right 9%; ">
-                <img src="./images/logo-darkness.png ">
-            </div>
-        </div>
-    </section>
 
     <footer>
         <div class="flex-container footer ">
